@@ -1,4 +1,4 @@
-FROM fsharp:latest
+FROM fsharp/fsharp
 MAINTAINER Sebastian Fialka <sebastian.fialka@sebfia.net>
 
 ENV LIBUV_PREFIX /opt/libuv
