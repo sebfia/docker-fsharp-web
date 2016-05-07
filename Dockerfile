@@ -1,8 +1,8 @@
-FROM fsharp/fsharp
+FROM sebfia/fsharp
 MAINTAINER Sebastian Fialka <sebastian.fialka@sebfia.net>
 
 ENV LIBUV_PREFIX /opt/libuv
-ENV LIBUV_VERSION v1.7.5
+ENV LIBUV_VERSION v1.9.0
 ENV LIBUV_BASENAME libuv-$LIBUV_VERSION
 ENV LIBUV_ARCHIVE $LIBUV_BASENAME.tar.gz
 ENV LIBUV_ARCHIVE_URL dist.libuv.org/dist/$LIBUV_VERSION/$LIBUV_ARCHIVE
