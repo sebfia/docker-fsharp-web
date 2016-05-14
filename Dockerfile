@@ -1,4 +1,4 @@
-FROM sebfia/fsharp
+FROM fsharp/fsharp
 MAINTAINER Sebastian Fialka <sebastian.fialka@sebfia.net>
 
 ENV LIBUV_PREFIX /opt/libuv
@@ -28,5 +28,4 @@ RUN apt-get -y update && \
 ENV CMAKE_INCLUDE_PATH $LIBUV_PREFIX/include/:$CMAKE_INCLUDE_PATH
 ENV CMAKE_LIBRARY_PATH $LIBUV_PREFIX/lib/:$CMAKE_LIBRARY_PATH
 
-ENTRYPOINT ["/bin/bash"]
 CMD ["fsharpi"]
