@@ -7,4 +7,4 @@ In addition to the docker-fsharp image this image contains LibUv.
 The image contains the latest mono version with F# and LibUv.
 
 # Versions used:
-* LibUv 1.9.1
+* LibUv 1.11.0
